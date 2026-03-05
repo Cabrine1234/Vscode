@@ -1,0 +1,86 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #a59f9c;
+}
+
+.navbar {
+    background-color: #453f33 !important;
+}
+
+.nav-link {
+    color: #ffffffa3 !important;
+}
+
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(to right, #020015, #000f044c);
+    color: rgba(174, 125, 125, 0.732);
+    text-align: center;
+}
+
+.section-title {
+    font-weight: 700;
+    color: #9a2133;
+}
+
+.profile-img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border: 5px solid #98978a;
+}
+
+.skill-badge {
+    background-color: #0b8eaf;
+    margin: 5px;
+    padding: 8px 12px;
+    font-weight: 500;
+}
+
+.project-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(60, 1, 59, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+…    transform: translateY(-10px);
+}
+
+.custom-btn {
+    background-color: #2541827e;
+    color: rgba(255, 255, 255, 0.604);
+    padding: 10px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.custom-btn:hover {
+    background-color: #367099;
+    color: rgba(255, 255, 255, 0.513);
+}
+
+.custom-btn-sm {
+    background-color: #3a5175;
+    color: rgb(33, 23, 23);
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+.custom-btn-sm:hover {
+    background-color: #64335a;
+    color: rgb(222, 15, 15);
+}
+
+footer {
+    background-color: #52023b;
+    color: rgba(37, 37, 37, 0.322);
+}
+
+.footer-link {
+    color: #569e78;
+    text-decoration: none;
+}
+.footer-link:hover {
+    text-decoration: underline;
+}
